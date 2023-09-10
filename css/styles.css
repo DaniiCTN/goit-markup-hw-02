@@ -61,10 +61,13 @@ ul {
   letter-spacing: 0.28px;
 }
 
+
 .nav-section a:hover,
-.nav-section a:focus {
+.nav-section a:active {
   color: var(--hover-color);
 }
+
+
 
 .contacts-section a {
   text-decoration: none;
@@ -101,9 +104,6 @@ ul {
   background: var(--button-color);
   cursor: pointer;
   border: none;
-}
-
-.effective-solutions-button-text {
   color: #FFF;
   text-align: center;
   font-size: 16px;
@@ -114,9 +114,8 @@ ul {
   letter-spacing: 0.96px;
 }
 
-.effective-solutions-button :hover,
-.effective-solutions-button :focus {
-  background-color: #188ce8;
+.effective-solutions-button:hover {
+  color: #188ce8;
 }
 
 /* What we do section */
@@ -228,15 +227,17 @@ ul {
 
 /* Portofolio section */
 
-.buttons-section button {
+.buttons-section button{
   background: var(--portofolio-background-button-color);
   cursor: pointer;
   border: none;
 }
 
-.buttons-section button:hover {
+.buttons-section button:hover,
+.buttons-section button:active {
   background-color: var(--hover-color);
 }
+
 
 .buttons-section span {
   color: var(--title-color);
@@ -248,7 +249,8 @@ ul {
   letter-spacing: 0.48px;
 }
 
-.buttons-section span:hover {
+.buttons-section span:hover,
+.buttons-section span:active {
   color: var(--text-hover-color);
 }
 
