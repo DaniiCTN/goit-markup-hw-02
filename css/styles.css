@@ -235,14 +235,6 @@ ul {
   background: var(--portofolio-background-button-color);
   cursor: pointer;
   border: none;
-}
-
-.buttons-section:hover,
-.buttons-section:active {
-  background-color: var(--hover-color);
-}
-
-.buttons-section span {
   color: var(--title-color);
   text-align: center;
   font-size: 16px;
@@ -252,10 +244,13 @@ ul {
   letter-spacing: 0.48px;
 }
 
-.buttons-section span:hover,
-.buttons-section span:active {
+
+.buttons-section:focus,
+.buttons-section:active{
+  background-color: var(--hover-color);
   color: var(--text-hover-color);
 }
+
 
 .cards-section h3 {
   color: var(--title-color);
