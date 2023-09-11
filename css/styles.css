@@ -51,7 +51,7 @@ ul {
   letter-spacing: 0.78px;
 }
 
-.nav-section a {
+.nav-section {
   text-decoration: none;
   color: var(--title-color);
   font-size: 14px;
@@ -62,9 +62,13 @@ ul {
 }
 
 
-.nav-section a:hover,
-.nav-section a:active {
+.nav-section:hover,
+.nav-section:active {
   color: var(--hover-color);
+}
+
+.current{
+  color: var(--hover-color)
 }
 
 
@@ -115,7 +119,7 @@ ul {
 }
 
 .effective-solutions-button:hover {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 /* What we do section */
@@ -227,17 +231,16 @@ ul {
 
 /* Portofolio section */
 
-.buttons-section button{
+.buttons-section{
   background: var(--portofolio-background-button-color);
   cursor: pointer;
   border: none;
 }
 
-.buttons-section button:hover,
-.buttons-section button:active {
+.buttons-section:hover,
+.buttons-section:active {
   background-color: var(--hover-color);
 }
-
 
 .buttons-section span {
   color: var(--title-color);
